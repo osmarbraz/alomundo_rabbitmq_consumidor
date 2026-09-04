@@ -1,9 +1,6 @@
 # Consumidor RabbitMQ com Java
 
-Exemplo de uma aplicação Java que atua como **consumidora de mensagens** em uma fila do **RabbitMQ**, utilizando o serviço **CloudAMQP**.
-
-O programa estabelece uma conexão segura com o servidor RabbitMQ por meio do protocolo **AMQPS**, acessa uma fila chamada `alo` e permanece aguardando novas mensagens.
-
+Aplicação Java que atua como **consumidora de mensagens** em uma fila do **RabbitMQ**, utilizando o serviço **CloudAMQP**.
 
 ## Tecnologias utilizadas
 
