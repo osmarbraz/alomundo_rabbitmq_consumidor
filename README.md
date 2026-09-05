@@ -2,6 +2,8 @@
 
 Aplicação Java que atua como **consumidora de mensagens** em uma fila do **RabbitMQ**, utilizando o serviço **CloudAMQP**.
 
+Neste aplicação temos somente 1 fila, 1 produtor e 1 consumidor.
+
 ## Tecnologias utilizadas
 
 * **Java**
@@ -49,3 +51,7 @@ mvn exec:java
 
 A URL do RabbitMQ contém credenciais de acesso. **Não publique credenciais reais no código-fonte ou em repositórios públicos.** Prefira utilizar variáveis de ambiente ou arquivos de configuração seguros.
 
+
+## Aplicação produtora
+
+https://github.com/osmarbraz/alomundo_rabbitmq_produtor
