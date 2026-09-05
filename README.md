@@ -21,7 +21,7 @@ A aplicação:
 1. Estabelece uma conexão segura com o RabbitMQ.
 2. Cria um canal de comunicação.
 3. Declara a fila `alo`.
-4. Configura `basicQos(1)` para receber uma mensagem por vez.
+4. Configura `basicos(1)` para receber uma mensagem por vez.
 5. Aguarda novas mensagens.
 6. Exibe a mensagem recebida no console.
 7. Confirma o processamento utilizando `basicAck()`.
