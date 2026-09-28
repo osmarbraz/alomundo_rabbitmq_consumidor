@@ -17,8 +17,8 @@ import java.util.concurrent.TimeoutException;
 public class Principal {
 
     // URL de conexão com o servidor RabbitMQ
-    private static final String URL_RABBITMQ = "amqps://usuario:senha@host/virtualhost";
-
+    private static final String URL_RABBITMQ = "amqp://guest:guest@localhost:5672";     
+    
     // Nome da fila que será utilizada para receber as mensagens
     private static final String NOME_FILA = "alo";
 
